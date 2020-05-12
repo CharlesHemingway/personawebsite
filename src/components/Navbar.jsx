@@ -47,12 +47,15 @@ class NavBar extends React.Component {
           >
             <Container>
               <NavbarBrand className="mr-lg-5" to="/" tag={Link}
-              style={{
-                    fontSize:"1.5em",
-                    fontWeight: "400",
-                    color:"black",
-                             }}>
-                Ossiel Designs
+            //  style={{
+            //          fontSize:"1.5em",
+            //          fontWeight: "400",
+            //        color:"black",
+            //                   }}
+            >
+            
+                 {/* Ossiel Designs */}
+
               </NavbarBrand>
               <Button 
               className="navbar-toggler" id="navbar_global">
@@ -148,86 +151,3 @@ class NavBar extends React.Component {
 }
 
 export default NavBar;
-
-
-
-//               </Nav>
-//              <Nav className="align-items-lg-center ml-lg-auto" navbar>
-                  
-//                   <NavItem className="d-none d-lg-block ml-lg-4">
-            //         <Button
-            //           className="btn-success btn-icon"
-            //           color="success"                    
-            //           type="button"
-            //           onClick={() => this.toggleModal("formModal")}
-            //         >
-            //           <span className="btn-inner--icon">
-            //             <i className="ni ni-check-bold mr-2" />
-            //           </span>
-            //           <span className="nav-link-inner--text ml-1"
-            //           style={{
-            //             fontWeight:"900",
-            //             fontSize:"1em"
-            //         }}>
-            //             Free Quote
-            //           </span>
-            //         </Button>
-            //         <Modal
-            //   className="modal-dialog-centered"
-            //   size="sm"
-            //   isOpen={this.state.formModal}
-            //   toggle={() => this.toggleModal("formModal")}
-            // >
-            //      <div className="modal-body p-0">
-            //     <Card className="bg-secondary shadow border-0">
-            //     <Contact />
-            //     </Card>
-            //     </div>
-
-            // </Modal>
-//                   </NavItem>
-//                     </Nav> 
-        
-//               </UncontrolledCollapse>
-//             </Container>
-//           </Navbar>
-//         </header>
-//         </Wrapper>
-//       </>
-//     );
-//   }
-// }
-
-// export default NavBar;
-
-// const Wrapper = styled.div`
-// .nv {
-//   position: absolute;
-//     top: 0;
-//     width: 100%;
-//     z-index: 100;
-//     background-color: white;
-//     border: 0;
-//     box-shadow: none;
-// }
-
-// @media only screen and (min-width: 300px) and (max-width: 959px){
-// .nv { 
-//   background-color: white;
-//   },
-
-//   .navbar-toggler {
-//     z-index: 101;
-//   },
-
-//   .navbar-toggler-icon {
-//     z-index: 101;
-//   },
-
-//   .navbar-collapse-header {
-//     background-color: transparent;
-//   }
-// }
-
-
-// `;
