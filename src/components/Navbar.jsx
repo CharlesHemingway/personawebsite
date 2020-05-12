@@ -46,17 +46,17 @@ class NavBar extends React.Component {
             id="navbar-main"
           >
             <Container>
-              <NavbarBrand className="mr-lg-5" to="/" tag={Link}
-            //  style={{
-            //          fontSize:"1.5em",
-            //          fontWeight: "400",
-            //        color:"black",
-            //                   }}
-            >
-            
-                 {/* Ossiel Designs */}
-
-              </NavbarBrand>
+              <NavbarBrand 
+              className="mr-lg-5" 
+              to="/" 
+              tag={Link}
+              style={{
+                     fontSize:"1.5em",
+                     fontWeight: "400",
+                   color:"black",
+                              }}>
+                  Ossiel Designs
+               </NavbarBrand>
               <Button 
               className="navbar-toggler" id="navbar_global">
                 <span className="navbar-toggler-icon" 
