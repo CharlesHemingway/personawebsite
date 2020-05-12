@@ -1,51 +1,57 @@
 {
   "name": "ossiel",
+  "version": "0.1.0",
   "private": true,
-  "description": "Personal Website CV",
-  "version": "0.0.1",
-  "author": "Ossiel Romero <ossiel@riseup.net>",
   "dependencies": {
-    "babel-plugin-styled-components": "^1.10.0",
-    "gatsby": "^2.0.53",
-    "gatsby-image": "^2.0.20",
-    "gatsby-plugin-google-analytics": "^2.0.8",
-    "gatsby-plugin-manifest": "^2.0.9",
-    "gatsby-plugin-offline": "^2.0.16",
-    "gatsby-plugin-react-helmet": "^3.0.2",
-    "gatsby-plugin-sharp": "^2.0.14",
-    "gatsby-plugin-styled-components": "^3.0.4",
-    "gatsby-source-filesystem": "^2.0.8",
-    "gatsby-transformer-sharp": "^2.1.8",
-    "prop-types": "^15.6.2",
-    "react": "^16.6.3",
-    "react-awesome-styled-grid": "^2.2.2",
-    "react-dom": "^16.6.3",
-    "react-helmet": "^5.2.0",
-    "react-icons": "^3.2.2",
-    "simple-json-fetch": "^1.0.1",
-    "styled-components": "^4.1.3"
+    "@fortawesome/fontawesome-free": "^5.12.1",
+    "@fortawesome/fontawesome-svg-core": "^1.2.27",
+    "@fortawesome/free-solid-svg-icons": "^5.12.1",
+    "@fortawesome/react-fontawesome": "^0.1.9",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "classnames": "^2.2.6",
+    "headroom.js": "^0.11.0",
+    "history": "^4.10.1",
+    "moment": "^2.24.0",
+    "next": "^9.3.1",
+    "node-sass": "^4.13.1",
+    "nouislider": "^14.1.1",
+    "react": "^16.13.1",
+    "react-datetime": "^2.16.3",
+    "react-dom": "^16.13.1",
+    "react-icons": "^3.10.0",
+    "react-redux": "^7.2.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.4.0",
+    "react-scroll": "^1.7.16",
+    "react-scroll-up-button": "^1.6.4",
+    "react-spacer": "^1.3.0",
+    "reactstrap": "^8.4.1",
+    "redux": "^4.0.5",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0",
+    "styled-components": "^5.0.1"
   },
-  "keywords": [
-    "gatsby"
-  ],
-  "license": "GNU",
   "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
-    "start": "npm run develop",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
-    "format": "prettier --write \"src/**/*.js\"",
-    "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
-  "devDependencies": {
-    "gh-pages": "^2.0.1",
-    "prettier": "^1.15.2"
+  "eslintConfig": {
+    "extends": "react-app"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ossielromero/ossiel.com"
-  },
-  "bugs": {
-    "url": "https://github.com/ossielromero/ossiel.com/issues"
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
