@@ -91,7 +91,8 @@ class Webpackages extends React.Component {
                 <Button color="success" size="lg" block>
                   <Link to="/contact">
                     <NavLink className="text-white">
-                    Contact <span className="sr-only">(current)</span>
+                    
+                   Order Now <span className="sr-only">(current)</span>
                     </NavLink>
                   </Link>
                   </Button>
@@ -198,7 +199,7 @@ class Webpackages extends React.Component {
                 <Button color="success" size="lg" block>
                 <Link to="/contact">
                     <NavLink className="text-white">
-                    Contact <span className="sr-only">(current)</span>
+                    Order Now <span className="sr-only">(current)</span>
                     </NavLink>
                   </Link>
                   </Button>
