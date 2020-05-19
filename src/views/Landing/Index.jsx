@@ -66,9 +66,9 @@ class Index extends React.Component {
                                     fontWeight: "200",
                                     paddingBottom: "2em",
                                         }}>
-                                    The perfect website is an investment that should create a
-                                    memorable first experience and pay for itself. 
-                                    We transform your website into a self-paying investments.
+                                    Our specialties are web development and digital marketing, 
+                                    but our focus is on your success. We'll transform your website
+                                    into a self-paying investment.
                                    </h6>
                         <Col className="text-lg-center btn-wrapper" lg="8">
                             {/* <Button
