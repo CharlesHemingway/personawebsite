@@ -36,59 +36,58 @@ class Footer extends React.Component {
               </Col>
               
               <Col className="text-lg-center btn-wrapper" lg="6">
-              <Button
-                  className=" btn-neutral btn-icon-only btn-round"
-                  color="twitter"
-                  href="https://twitter.com/ossielromero91"
-                  id="tooltip126536702"
-                  size="lg"
-                  target="_blank"
-                >
-                  <i className=" fa fa-twitter" />
-                </Button>
-                <UncontrolledTooltip delay={0} target="tooltip126536702">
-                  Follow me
-                </UncontrolledTooltip>
-                <Button
-                  className="btn-neutral btn-icon-only btn-round ml-1"
-                  color="github"
-                  href="https://github.com/ossielromero"
-                  id="tooltip383967593"
-                  size="lg"
-                  target="_blank"
-                >
-                  <i className=" fa fa-github" />
-                </Button>
-                <UncontrolledTooltip delay={0} target="tooltip383967593">
-                  Follow me
-                </UncontrolledTooltip>
-                <Button
-                  className="btn-neutral btn-icon-only btn-round ml-1"
-                  color="instagram"
-                  href="https://www.instagram.com/ossieltr/"
-                  id="tooltip568564532"
-                  size="lg"
-                  target="_blank"
-                >
-                  <i className=" fa fa-instagram" />
-                </Button>
-                <UncontrolledTooltip delay={0} target="tooltip568564532">
-                  Follow me
-                </UncontrolledTooltip>
-                <Button
-                  className="btn-default btn-icon-only btn-round ml-1"
-                  color="default"
-                  href="https://www.linkedin.com/in/ossiel/"
-                  id="tooltip56856453232"
-                  size="lg"
-                  target="_blank"
-                >
-                  <i className=" fa fa-linkedin" />
-                </Button>
-                <UncontrolledTooltip delay={0} target="tooltip56856453232">
-                  Follow me
-                </UncontrolledTooltip>
-              
+                {/* <Button
+                              className=" btn-neutral btn-icon-only btn-round"
+                              color="twitter"
+                              href="https://twitter.com/ossielromero91"
+                              id="tooltip126536702"
+                              size="lg"
+                              target="_blank"
+                            >
+                              <i className=" fa fa-twitter" />
+                            </Button>
+                            <UncontrolledTooltip delay={0} target="tooltip126536702">
+                              Follow me
+                            </UncontrolledTooltip> */}
+                            <Button
+                              className="btn-success btn-icon-only btn-round ml-1"
+                              color="success"
+                              href="https://github.com/ossielromero"
+                              id="tooltip383967597"
+                              size="lg"
+                              target="_blank"
+                            >
+                              <i className=" fa fa-github" />
+                            </Button>
+                            <UncontrolledTooltip delay={0} target="tooltip383967597">
+                              Follow us on Github!
+                            </UncontrolledTooltip>
+                            <Button
+                              className="btn-success btn-icon-only btn-round ml-1"
+                              color="success"
+                              href="https://www.instagram.com/ossieldesigns/"
+                              id="tooltip568564536"
+                              size="lg"
+                              target="_blank"
+                            >
+                              <i className=" fa fa-instagram" />
+                            </Button>
+                            <UncontrolledTooltip delay={0} target="tooltip568564536">
+                              Follow us on Insta!
+                            </UncontrolledTooltip>
+                            <Button
+                              className="btn-success btn-icon-only btn-round ml-1"
+                              color="success"
+                              href="https://www.facebook.com/ossieldesigns"
+                              id="tooltip56856453234"
+                              size="lg"
+                              target="_blank"
+                            >
+                              <i className=" fa fa-facebook" />
+                            </Button>
+                            <UncontrolledTooltip delay={0} target="tooltip56856453234">
+                              Like us on Facebook!
+                            </UncontrolledTooltip>
               </Col>
             </Row>
           </Container>
