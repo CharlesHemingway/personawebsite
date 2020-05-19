@@ -4,7 +4,8 @@ import {
   Col,
   Container, 
   Badge,
-  Row, 
+  Row,
+  Card, 
 } from "reactstrap";
 
 class Packages extends React.Component {
@@ -18,24 +19,41 @@ class Packages extends React.Component {
   };
   render() {
     return (
-        <>       
-         <div className="position-relative about">
-         <section className="section section-sm section-hero section-shaped" >  
-          <div className="shape shape-light alpha-3"
-          style={{
-            background:"transparent"
-          }}>
-              <span />
-              <span />
-              <span />
-              <span />
-              <span />             
-            </div> 
-            <Container 
-                  className="border-0 "
-                  style={{
-                    marginTop:"5rem",
-                    background:"transparent"}}>
+        <>   
+            
+            <main className="profile-page" ref="main">
+      <section className="section-profile-cover section-shaped my-0">
+        {/* Circles background */}
+        <div className="default alpha-4">
+          <span />
+          <span />
+          <span />
+          <span />
+          <span />
+          <span />
+          <span />
+        </div>
+        {/* SVG separator */}
+        <div className="separator separator-bottom separator-skew">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            preserveAspectRatio="none"
+            version="1.1"
+            viewBox="0 0 2560 100"
+            x="0"
+            y="0"
+          >
+            <polygon
+              className="fill-white" 
+              points="2560 0 2560 100 0 100"
+            />
+          </svg>
+        </div>
+      </section>
+      <section className="section bg-white">
+        <Container>
+       <Card className="card-profile shadow mt--300">
+
                         <h1 
                     className="lead text-dark"
                     style={{
@@ -123,26 +141,11 @@ class Packages extends React.Component {
                     </ul>
                   </div>
                 </Col>
-              </Row>
+              </Row>           
+             </Card>
             </Container>
-            {/* SVG separator */}
-            <div className="separator separator-bottom separator-skew zindex-100">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                preserveAspectRatio="none"
-                version="1.1"
-                viewBox="0 0 0 0"
-                x="0"
-                y="0"
-              >
-                <polygon
-                  className="fill-info"
-                  points="1 2 3 4 5 6"
-                />
-              </svg>
-            </div>
-          </section>                
-         </div>
+          </section>
+    </main>
         </>
     );
   }

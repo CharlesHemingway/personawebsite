@@ -38,7 +38,7 @@ class Index extends React.Component {
                     <img
                       alt="..."
                       className="img-center img-fluid floating mobimg"
-                      src={require("../../assets/img/brand/ossiel.png")
+                      src={require("../../assets/img/brand/logo.png")
                     }
                     />
                   </div>
@@ -66,10 +66,12 @@ class Index extends React.Component {
                                     fontWeight: "200",
                                     paddingBottom: "2em",
                                         }}>
-                                    As a designer and developer, I understand the perfect website is an investment that should create a memorable first experience and pay for itself. I transform your website from a boring static page into a functional and slick online storefront. In short, I transform websites into self-paying investments.
+                                    The perfect website is an investment that should create a
+                                    memorable first experience and pay for itself. 
+                                    We transform your website into a self-paying investments.
                                    </h6>
                         <Col className="text-lg-center btn-wrapper" lg="8">
-                            <Button
+                            {/* <Button
                               className=" btn-neutral btn-icon-only btn-round"
                               color="twitter"
                               href="https://twitter.com/ossielromero91"
@@ -81,45 +83,45 @@ class Index extends React.Component {
                             </Button>
                             <UncontrolledTooltip delay={0} target="tooltip126536702">
                               Follow me
-                            </UncontrolledTooltip>
+                            </UncontrolledTooltip> */}
                             <Button
-                              className="btn-neutral btn-icon-only btn-round ml-1"
-                              color="github"
+                              className="btn-success btn-icon-only btn-round ml-1"
+                              color="success"
                               href="https://github.com/ossielromero"
-                              id="tooltip383967593"
+                              id="tooltip383967597"
                               size="lg"
                               target="_blank"
                             >
                               <i className=" fa fa-github" />
                             </Button>
-                            <UncontrolledTooltip delay={0} target="tooltip383967593">
-                              Follow me
+                            <UncontrolledTooltip delay={0} target="tooltip383967597">
+                              Follow us on Github!
                             </UncontrolledTooltip>
                             <Button
-                              className="btn-neutral btn-icon-only btn-round ml-1"
-                              color="instagram"
-                              href="https://www.instagram.com/ossieltr/"
-                              id="tooltip568564532"
+                              className="btn-success btn-icon-only btn-round ml-1"
+                              color="success"
+                              href="https://www.instagram.com/ossieldesigns/"
+                              id="tooltip568564536"
                               size="lg"
                               target="_blank"
                             >
                               <i className=" fa fa-instagram" />
                             </Button>
-                            <UncontrolledTooltip delay={0} target="tooltip568564532">
-                              Follow me
+                            <UncontrolledTooltip delay={0} target="tooltip568564536">
+                              Follow us on Insta!
                             </UncontrolledTooltip>
                             <Button
-                              className="btn-default btn-icon-only btn-round ml-1"
-                              color="default"
-                              href="https://www.linkedin.com/in/ossiel/"
-                              id="tooltip56856453232"
+                              className="btn-success btn-icon-only btn-round ml-1"
+                              color="success"
+                              href="https://www.facebook.com/ossieldesigns"
+                              id="tooltip56856453234"
                               size="lg"
                               target="_blank"
                             >
-                              <i className=" fa fa-linkedin" />
+                              <i className=" fa fa-facebook" />
                             </Button>
-                            <UncontrolledTooltip delay={0} target="tooltip56856453232">
-                              Follow me
+                            <UncontrolledTooltip delay={0} target="tooltip56856453234">
+                              Like us on Facebook!
                             </UncontrolledTooltip>
                           </Col>
                                 </div>                   

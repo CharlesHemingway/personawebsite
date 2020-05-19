@@ -13,7 +13,7 @@ const ClassesCard = ({ classcard }) => {
   return (
     <Card className="card-lift--hover shadow border-0"
      style={{marginTop:"2rem"}}>
-      <CardImg top width="120%" src={img} alt={alt} />
+      <CardImg top width="70%" src={img} alt={alt} />
       <CardBody className="py-5">        
         <CardTitle>
             <h6 

@@ -3,7 +3,7 @@ import React from 'react'
 // views
 import Portfolio from "../../views/Portfolio/Index.jsx";
 import Image from "../../views/Portfolio/Image.jsx";
-
+import Contact from "../../views/Contact/Index.jsx";
 // core components
 import Navbar from "../../components/Navbar.jsx";
 import Footer from "../../components/Footer.jsx";
@@ -24,10 +24,9 @@ class Landing extends React.Component {
             <Navbar />          
             
             <Portfolio />
+            <Contact />
             <Image />
-            <ScrollUpButton />
-
-            
+            <ScrollUpButton /> 
             </main>
             <Footer />
       </>

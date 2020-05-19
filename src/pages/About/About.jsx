@@ -3,6 +3,7 @@ import React from 'react'
 // views
 import About from "../../views/About/Index.jsx";
 import Image from "../../views/About/Image.jsx";
+import Contact from "../../views/Contact/Index.jsx";
 
 // core components
 import Navbar from "../../components/Navbar.jsx";
@@ -20,8 +21,8 @@ class Landing extends React.Component {
             <main ref="main">
             <Navbar />          
             <About />
+            <Contact />
             <Image />
-
             </main>
             <Footer />
       </>

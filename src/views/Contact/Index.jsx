@@ -38,9 +38,16 @@ class Contact extends React.Component {
                     fontSize:"3em",
                     fontWeight: "400"
                         }}>  
-                         Let<span className="text-success">'</span>s talk<span className="text-success">.</span>
+                        Get in Touch<span className="text-success">.</span>
                    </h1>
-                   <h3>Boost your sales. Create brand identity. Let’s collaborate to grow your business and keep our community together apart.</h3>
+                   <h3 className="text-dark">
+                   If you have a project in mind that you would like us to quote on, or even if you just want to say hello, please fill this form. We will get back in touch as soon as possible. 
+                   </h3>
+                   <h5 className="text-success bold"
+                   style={{
+                    fontSize:"1em",
+                    fontWeight: "800"
+                        }}>Let’s collaborate to grow your business and keep our community together apart.</h5>
                     </div>                   
                   </div>                 
                 </Col>

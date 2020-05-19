@@ -47,14 +47,18 @@ class NavBar extends React.Component {
           >
             <Container>
               <NavbarBrand 
-              className="mr-lg-5" 
+              className="mr-lg-6" 
               to="/" 
               tag={Link}
               style={{
-                     fontSize:"1.5em",
+                     fontSize:"1em",
                      fontWeight: "400",
                    color:"black",
                               }}>
+                  <img
+                            alt="..."
+                            src={require("../assets/img/brand/logo.png")}
+                          />
                   Ossiel Designs
                </NavbarBrand>
               <Button 
@@ -66,8 +70,16 @@ class NavBar extends React.Component {
                 <div className="navbar-collapse-header">
                   <Row>
                     <Col className="collapse-brand" xs="6">
-                      <Link to="/">
-                        Ossiel Romero
+                      <Link to="/"style={{
+                     fontSize:"1em",
+                     fontWeight: "400",
+                   color:"black",
+                              }}>
+                  <img
+                            alt="..."
+                            src={require("../assets/img/brand/logo.png")}
+                          />
+                  Ossiel Designs
                       </Link>
                     </Col>
                     <Col className="collapse-close" xs="6">
@@ -124,7 +136,7 @@ class NavBar extends React.Component {
                         fontWeight:"900",
                         fontSize:"1em"
                     }}>
-                        Free Quote
+                        Get In Touch
                       </span>
                     </Button>
                     <Modal
