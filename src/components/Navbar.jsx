@@ -1,5 +1,7 @@
 
 import React from "react";
+import ReactGA from 'react-ga';
+
 import { Link } from "react-router-dom";
 // JavaScript plugin that hides or shows a component based on your scroll
 import Headroom from "headroom.js";
@@ -31,12 +33,15 @@ class NavBar extends React.Component {
     defaultModal: false
   };
   toggleModal = state => {
+    ReactGA.event({
+      category: 'Button',
+      action: 'Click On Get In Touch Button'
+    });
     this.setState({
       [state]: !this.state[state]
     });
   };
   render() {
-
     return (
       <>
         <header className="header-global">

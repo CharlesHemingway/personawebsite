@@ -1,5 +1,6 @@
 /*eslint-disable*/
 import React from "react";
+import { Link } from "react-router-dom";
 // reactstrap components
 import {
   Button,
@@ -26,8 +27,10 @@ class Footer extends React.Component {
                 <div className="copyright text-center">
                  Help
                 </div>
-                <div className="copyright text-center">
-                  Privacy
+                <div className="copyright text-center">           
+                <Link to="/privacy-policy" className="copyright text-center">
+                  Privacy 
+                </Link>
                 </div>
                 <div className="copyright text-center">
                   Terms

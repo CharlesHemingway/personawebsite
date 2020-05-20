@@ -1,5 +1,5 @@
 import React from "react";
-
+import ReactGA from "react-ga";
 // reactstrap components
 import { 
   Container,
@@ -13,7 +13,27 @@ import {
 import styled from 'styled-components'
 
 class Index extends React.Component {
+  
+  openGithub = state => {
+    ReactGA.event({
+      category: 'Social Media',
+      action: 'Opened Github'
+    });
+  };
 
+  openInstagram = state => {
+    ReactGA.event({
+      category: 'Social Media',
+      action: 'Opened Instagram'
+    });
+  };
+
+  openFacebook = state => {
+    ReactGA.event({
+      category: 'Social Media',
+      action: 'Opened Facebook'
+    });
+  };
   render() {    
     return (
       <>
@@ -91,6 +111,7 @@ class Index extends React.Component {
                               id="tooltip383967597"
                               size="lg"
                               target="_blank"
+                              onClick={this.openGithub}
                             >
                               <i className=" fa fa-github" />
                             </Button>
@@ -104,11 +125,12 @@ class Index extends React.Component {
                               id="tooltip568564536"
                               size="lg"
                               target="_blank"
+                              onClick={this.openInstagram}
                             >
                               <i className=" fa fa-instagram" />
                             </Button>
                             <UncontrolledTooltip delay={0} target="tooltip568564536">
-                              Follow us on Insta!
+                              Follow us on Instagram!
                             </UncontrolledTooltip>
                             <Button
                               className="btn-success btn-icon-only btn-round ml-1"
@@ -117,6 +139,7 @@ class Index extends React.Component {
                               id="tooltip56856453234"
                               size="lg"
                               target="_blank"
+                              onClick={this.openFacebook}
                             >
                               <i className=" fa fa-facebook" />
                             </Button>
