@@ -122,14 +122,14 @@ class Index extends React.Component {
                               className="btn-success btn-icon-only btn-round ml-1"
                               color="success"
                               href="https://www.instagram.com/ossieldesigns/"
-                              id="tooltip568564536"
+                              id="tooltip5685645367"
                               size="lg"
                               target="_blank"
                               onClick={this.openInstagram}
                             >
                               <i className=" fa fa-instagram" />
                             </Button>
-                            <UncontrolledTooltip delay={0} target="tooltip568564536">
+                            <UncontrolledTooltip delay={0} target="tooltip5685645367">
                               Follow us on Instagram!
                             </UncontrolledTooltip>
                             <Button
